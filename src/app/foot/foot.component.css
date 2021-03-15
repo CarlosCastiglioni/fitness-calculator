@@ -1,0 +1,11 @@
+footer {
+  background-color: rgb(12, 238, 106);
+  color: white;
+  font-family: 'Russo One', sans-serif;
+  width: 100%;
+  bottom: 0;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  }

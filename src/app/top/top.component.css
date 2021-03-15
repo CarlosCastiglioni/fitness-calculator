@@ -1,0 +1,10 @@
+header {
+  background-color: rgb(12, 238, 106);
+  color: white;
+  font-family: 'Russo One', sans-serif;
+  font-size: 2rem;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
