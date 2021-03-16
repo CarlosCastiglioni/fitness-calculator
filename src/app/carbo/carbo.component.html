@@ -1,24 +1,24 @@
 <div class="carboStyle">
   <mat-card>
     <mat-card-content>
-    <h2 class="example-h2">Insira os Carboidratos</h2>
+    <h2 class="h2">Insira os Carboidratos</h2>
 
-    <section class="example-section">
-      <mat-form-field class="example-margin">
-        <mat-label>Value</mat-label>
-        <input matInput type="number" [(ngModel)]="value">
+    <section class="section">
+      <mat-form-field class="margin">
+        <mat-label>Valor em gramas</mat-label>
+        <input matInput type="number" [(ngModel)]="valueCarbo">
       </mat-form-field>
     </section>
     
   </mat-card-content>
 </mat-card>
 
-<mat-card class="example-result-card">
+<mat-card class="result-card">
   <mat-card-content>
-    <h2>Meta Diária</h2>
+    <h2>Meta Diária (160g)</h2>
 
     <mat-slider
-    class="example-margin"
+    class="margin"
     [disabled]="disabled"
     [invert]="invert"
         [max]="160"
@@ -26,7 +26,7 @@
         [step]="1"
         [thumbLabel]="true"
         [tickInterval]="getSliderTickInterval()"
-        [(ngModel)]="value"
+        [(ngModel)]="valueCarbo"
         [vertical]="vertical">
     </mat-slider>
   </mat-card-content>

@@ -1,4 +1,7 @@
 .buttonsStyle{
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
+  padding-left: 90px;
+  padding-right: 90px;
 }

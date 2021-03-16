@@ -1,11 +1,11 @@
 <div class="caloriesStyle">
   <mat-card>
     <mat-card-content>
-    <h2 class="example-h2">Insira as Calorias</h2>
+    <h2 class="h2">Insira as Calorias</h2>
 
-    <section class="example-section">
-      <mat-form-field class="example-margin">
-        <mat-label>Value</mat-label>
+    <section class="section">
+      <mat-form-field class="margin">
+        <mat-label>Valor em cal</mat-label>
         <input matInput type="number" [(ngModel)]="value">
       </mat-form-field>
     </section>
@@ -13,15 +13,15 @@
   </mat-card-content>
 </mat-card>
 
-<mat-card class="example-result-card">
+<mat-card class="result-card">
   <mat-card-content>
-    <h2>Meta Diária</h2>
+    <h2>Meta Diária (1500cal)</h2>
 
     <mat-slider
-        class="example-margin"
+        class="margin"
         [disabled]="disabled"
         [invert]="invert"
-        [max]="150"
+        [max]="1500"
         [min]="0"
         [step]="1"
         [thumbLabel]="true"

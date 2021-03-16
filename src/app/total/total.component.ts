@@ -1,15 +1,15 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { CarboComponent } from '../carbo/carbo.component';
+
 
 @Component({
   selector: 'app-total',
   templateUrl: './total.component.html',
   styleUrls: ['./total.component.css']
 })
-export class TotalComponent implements OnInit {
+export class TotalComponent {
 
-  constructor() { }
-
-  ngOnInit(): void {
+  carbo: number = 0
+  calories: number = 0
+  protein: number = 0
   }
-
-}

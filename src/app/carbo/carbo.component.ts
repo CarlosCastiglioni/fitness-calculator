@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-carbo',
@@ -14,7 +14,7 @@ export class CarboComponent {
   showTicks = false;
   step = 1;
   thumbLabel = false;
-  value = 0;
+  valueCarbo = 0;
   vertical = false;
   tickInterval = 1;
 
